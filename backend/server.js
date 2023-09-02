@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 dotenv.config();
 import cookieParser from "cookie-parser";
+import path from "path";
 
 const port = process.env.PORT || 5000;
 
